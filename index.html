@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        // alert = function() {
+        //     debugger;
+        //     alert.apply(null, arguments);
+        // }    
+    </script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Uniserve</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./public/stylesheets/style.css">
+    <link rel="stylesheet" href="./public/stylesheets/grid-style.css">
+    <link rel="stylesheet" href="./public/stylesheets/resizeable-styles.css">
+    <script  type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?libraries=visualization&key=AIzaSyBPUUMxqRaHjBgeaedmPmBHBjWfmEFihiw">
+    </script>
+</head>
+
+<body>
+    <div style="height:54px; border-bottom: 3px solid black;">
+        Uniserve Header
+        <iframe name="foo" style="display:none"></iframe>                
+        <form style="display: inline-block" target="foo" action="/login" method="post">   company_recid: <input type="number" name="company_recid">   <input type="submit" value="Login">  </form>
+        <form style="display: inline-block" target="foo" action="/logout" method="post">  <input type="submit" value="Logout">  </form>
+
+    </div>
+
+    <div id="container">
+        
+    </div>
+    <!-- Dependencies -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+    
+    <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/react/16.0.0/umd/react.development.js"></script>
+    <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.0.0/umd/react-dom.development.js"></script>
+
+    <!-- Main -->
+    <script src="./dist/bundle.js"></script>
+</body>
+
+</html>
