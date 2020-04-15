@@ -1,7 +1,7 @@
 Disclaim: This is only used for demo purpose, do not distribute without permission.
-## How to install
+## Install Insructions
 1. open index.html directly
-### Setup
+### Environment Setup
 1. yarn install
 2. under /view_engine or /s3bucket webpack
 3. for dev: under /view_engine or /s3bucket, npm run dev
